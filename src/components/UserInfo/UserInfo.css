@@ -1,0 +1,28 @@
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10vh;
+    align-items: center;
+}
+
+.userInfo__header{
+    font-family: 'Roboto Slab', serif;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #141c3a;
+}
+
+.userInfo__quote{
+    font-family: 'Architects Daughter', cursive;
+    color: rgba(10, 10, 10, 0.9);
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+
+
+.userInfo__userImage{
+    height: 300px;
+    object-fit: contain;
+}
