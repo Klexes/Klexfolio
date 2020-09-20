@@ -11,7 +11,17 @@ function App() {
       <Header/>
       <UserInfo/>
       <Qual/>
-      <Card/>
+      <div className="app__card">
+        <div className="app__header">
+          <h1>Projects</h1>
+          <p>Here are the few projects I've worked On.</p>
+        </div>
+        <div className="app__projects">
+        <Card/>
+        <Card/>
+        <Card/>
+        </div>
+      </div>
     </div>
   );
 }

@@ -10,8 +10,7 @@ const Card = () => {
                 </div>
                 <div className="card__content">
                 <h2>Title</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>Live Site</button>
                 </div>
             </div>
         </div>
