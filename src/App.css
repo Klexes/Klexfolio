@@ -10,7 +10,8 @@
     border-radius: 20px;
     width: 90%;
     background-color: white;
-    margin: 0 auto;    
+    margin: 0 auto;   
+    z-index: 100; 
 }
 
 .app__header{
