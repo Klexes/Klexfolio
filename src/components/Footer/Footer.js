@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footer__icon">
-                <img src="https://i.ibb.co/mF8SFS5/Sharp-removebg-preview.png" alt=""/>
+                <img src="https://i.ibb.co/VxwrDN6/backgrounda-main.png" alt=""/>
                 <h4>The Best Way You Can Predict The Future Is Create It. </h4>
             </div>
             <div className="footer__options">

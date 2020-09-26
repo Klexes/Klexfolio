@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header__right">
-                <img src="https://i.ibb.co/sQ3FKvW/Sharp-removebg-preview.png" alt=""/>
+                <img src="https://i.ibb.co/0y3yQd9/backgroundaaa.png" alt=""/>
             </div>
             <div className="header__left">
                 <div className="header__leftOption">
