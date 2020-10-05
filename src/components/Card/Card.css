@@ -1,6 +1,6 @@
 .card{
 	position: relative;
-	/* width: 280px; */
+	width: max-content;
 	height: 400px;
 	margin: 20px 0;
 	box-sizing: border-box;
@@ -23,12 +23,13 @@
 }
 
 .card__image{
-    position: absolute;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 99%;
+	height: 80%;
 	background: #000;
+	object-fit: contain;
 	clip-path: circle(400px at center 100px);
 	transition: 0.5s;
 	transition-delay: 0.5s;
@@ -40,7 +41,8 @@
 }
 
 .card__image > img{
-    position: absolute;
+	position: absolute;
+	border-radius: 20px;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -60,8 +62,11 @@
 }
 
 .card__content > h2{
-    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5rem;
 }
 
 .card__content h2 ,
@@ -69,6 +74,31 @@
     opacity: 0;
 	transition: 0.5s;
 	transform: translateY(20px);
+}
+
+.card__options{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card__options > button {
+	padding: 12px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.live-button{
+	background-color: #ED82D9 !important;
+	color: white !important;
+	text-transform: inherit !important;
+}
+
+.repo-button{
+	background-color: #007C7F !important;
+	color: white !important;
+	text-transform: inherit !important;
 }
 
 .card__box:hover .card__content h2{

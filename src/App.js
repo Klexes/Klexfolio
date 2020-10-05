@@ -18,9 +18,9 @@ function App() {
           <p>Here are the few projects I've worked On.</p>
         </div>
         <div className="app__projects">
-        <Card/>
-        <Card/>
-        <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
         </div>
       </div>
       <Footer/>
